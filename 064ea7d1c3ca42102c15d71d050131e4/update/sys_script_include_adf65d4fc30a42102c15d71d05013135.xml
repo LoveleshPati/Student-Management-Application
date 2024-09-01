@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1386549_studentm.EnrollmentNumberGenerator</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>EnrollmentNumberGenerator</name>
+        <script><![CDATA[var EnrollmentNumberGenerator = Class.create();
+EnrollmentNumberGenerator.prototype = {
+    initialize: function() {},
+
+    getNextEnrollmentNumber: function() {
+        var prefix = 'ENRC00'; 
+
+        var customTableGr = new GlideRecord('x_1386549_studentm_enrollment_number');
+        customTableGr.orderByDesc('sys_created_on');
+        customTableGr.query();
+
+        var nextNumber;
+        if (customTableGr.next()) {
+           
+            var currentNumber = parseInt(customTableGr.getValue('number'), 10);
+            nextNumber = currentNumber + 1;
+
+            var newRecord = new GlideRecord('x_1386549_studentm_enrollment_number');
+            newRecord.initialize();
+            newRecord.setValue('number', nextNumber);
+            newRecord.insert();
+        }
+        
+        var enrollmentNumber = prefix + nextNumber;
+        return enrollmentNumber;
+    },
+
+    type: 'EnrollmentNumberGenerator'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-13 05:17:11</sys_created_on>
+        <sys_id>adf65d4fc30a42102c15d71d05013135</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EnrollmentNumberGenerator</sys_name>
+        <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
+        <sys_update_name>sys_script_include_adf65d4fc30a42102c15d71d05013135</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 18:14:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

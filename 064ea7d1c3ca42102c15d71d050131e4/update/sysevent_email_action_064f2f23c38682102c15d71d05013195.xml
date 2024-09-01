@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1386549_studentm_leave_register</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Dear Principal Sir,</p>
+<p>Please find the details of the leave request.</p>
+<table style="border-collapse: collapse; width: 99.9744%; height: 92.4216px;" border="1">
+<tbody>
+<tr style="height: 15.4036px;">
+<td style="width: 48.0952%; height: 15.4036px;">Leave Number</td>
+<td style="width: 48.0952%; height: 15.4036px;">${leave_number}</td>
+</tr>
+<tr style="height: 15.4036px;">
+<td style="width: 48.0952%; height: 15.4036px;">Student Name</td>
+<td style="width: 48.0952%; height: 15.4036px;">${student_name}</td>
+</tr>
+<tr style="height: 15.4036px;">
+<td style="width: 48.0952%; height: 15.4036px;">Leave Type</td>
+<td style="width: 48.0952%; height: 15.4036px;">${leave_type}</td>
+</tr>
+<tr style="height: 15.4036px;">
+<td style="width: 48.0952%; height: 15.4036px;">Leave Start Date</td>
+<td style="width: 48.0952%; height: 15.4036px;">${leave_start_date}</td>
+</tr>
+<tr style="height: 15.4036px;">
+<td style="width: 48.0952%; height: 15.4036px;">Leave End Date</td>
+<td style="width: 48.0952%; height: 15.4036px;">${leave_end_date}</td>
+</tr>
+<tr style="height: 15.4036px;">
+<td style="width: 48.0952%; height: 15.4036px;">Mention Leave Reason</td>
+<td style="width: 48.0952%; height: 15.4036px;">${mention_leave_reason}</td>
+</tr>
+</tbody>
+</table>
+<p>Click<a href="https://dev264254.service-now.com/sysapproval_approver_list.do?sysparm_query=&amp;sysparm_first_row=1&amp;sysparm_view="> here</a> to approve / reject the request.</p>
+<p>Regards,</p>
+<p>Student Leave Management System</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>The principal should be notifiedforleave</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>5afc8ca3c30642102c15d71d050131ac</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Leave Request Approval –  ${enrollment_number}  for${student_name}.</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>shantala.jain</sys_created_by>
+        <sys_created_on>2024-05-15 05:11:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>064f2f23c38682102c15d71d05013195</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>The principal should be notifiedforleave</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
+        <sys_update_name>sysevent_email_action_064f2f23c38682102c15d71d05013195</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 07:31:26</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

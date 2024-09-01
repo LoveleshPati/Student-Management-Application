@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Student Registration Form">1361a0afc34642102c15d71d05013140</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>mohit.trivedi</sys_created_by>
+        <sys_created_on>2024-05-14 14:19:36</sys_created_on>
+        <sys_id>1b566827c38642102c15d71d0501310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Student Registration Form</sys_name>
+        <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_1b566827c38642102c15d71d0501310f</sys_update_name>
+        <sys_updated_by>mohit.trivedi</sys_updated_by>
+        <sys_updated_on>2024-05-14 14:19:36</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

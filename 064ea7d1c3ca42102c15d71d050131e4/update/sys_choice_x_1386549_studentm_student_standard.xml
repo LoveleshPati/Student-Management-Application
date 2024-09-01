@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="standard" table="x_1386549_studentm_student" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>standard</element>
+            <name>x_1386549_studentm_student</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-08 06:32:50</sys_created_on>
+            <sys_id>1bf18c6dc30e42102c15d71d050131dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>standard</sys_name>
+            <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
+            <sys_update_name>sys_choice_x_1386549_studentm_student_standard</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-08 06:32:50</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1st</label>
+            <language>en</language>
+            <name>x_1386549_studentm_student</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-08 06:33:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f0204edc30e42102c15d71d050131f3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-08 06:34:10</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2nd</label>
+            <language>en</language>
+            <name>x_1386549_studentm_student</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-08 06:33:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a12c4adc30e42102c15d71d05013178</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-08 06:34:12</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3rd</label>
+            <language>en</language>
+            <name>x_1386549_studentm_student</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-08 06:33:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a31244edc30e42102c15d71d050131f5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-08 06:34:16</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4th</label>
+            <language>en</language>
+            <name>x_1386549_studentm_student</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-08 06:33:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c2204edc30e42102c15d71d050131f4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-08 06:34:18</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5th</label>
+            <language>en</language>
+            <name>x_1386549_studentm_student</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-08 06:33:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1224cadc30e42102c15d71d05013110</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-08 06:34:23</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HKG</label>
+            <language>en</language>
+            <name>x_1386549_studentm_student</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-08 06:33:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>860248adc30e42102c15d71d050131d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-08 06:34:07</sys_updated_on>
+            <value>hkg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LKG</label>
+            <language>en</language>
+            <name>x_1386549_studentm_student</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-08 06:33:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67f104edc30e42102c15d71d0501313a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-08 06:34:04</sys_updated_on>
+            <value>lkg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>standard</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nursey</label>
+            <language>en</language>
+            <name>x_1386549_studentm_student</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-08 06:32:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63e148adc30e42102c15d71d05013103</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-08 06:34:00</sys_updated_on>
+            <value>nursery</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

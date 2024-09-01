@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Restrict the Phone Number to allow only [0-9] or plus sign. (Example: +919876543210 or +921234567890 or +13901233456)</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Phone.NoValidation</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    //Type appropriate comment here, and begin script below
+
+    var phoneNumber = g_form.getValue('phone_number');
+    var regexPattern = /^[0-9+]+$/;
+
+    if (!regexPattern.test(phoneNumber)) {
+        g_form.addErrorMessage("Phone Number should contain only digits (0-9) or plus sign (+).");
+        g_form.clearValue('phone_number');
+        return false;
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mohit.trivedi</sys_created_by>
+        <sys_created_on>2024-05-12 08:04:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac9c3cb6c3c202102c15d71d050131f1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Phone.NoValidation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
+        <sys_update_name>sys_script_client_ac9c3cb6c3c202102c15d71d050131f1</sys_update_name>
+        <sys_updated_by>shantala.jain</sys_updated_by>
+        <sys_updated_on>2024-05-16 17:14:01</sys_updated_on>
+        <table>x_1386549_studentm_student</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

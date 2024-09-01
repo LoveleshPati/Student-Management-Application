@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>student_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto Populate Enrollment Number</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var ga=new GlideAjax("populateEnrollment");
+   ga.addParam("sysparm_name","getNumber");
+   ga.addParam("sysparm_student",newValue);
+   ga.getXMLAnswer(callMe);
+
+   function callMe(response){
+	var res=response;
+	g_form.setValue("enrollment_number",res);
+   }
+
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mohit.trivedi</sys_created_by>
+        <sys_created_on>2024-05-15 12:25:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b491ddf7c38e82102c15d71d050131ec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Auto Populate Enrollment Number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
+        <sys_update_name>sys_script_client_b491ddf7c38e82102c15d71d050131ec</sys_update_name>
+        <sys_updated_by>mohit.trivedi</sys_updated_by>
+        <sys_updated_on>2024-05-17 06:57:08</sys_updated_on>
+        <table>x_1386549_studentm_leave_register</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

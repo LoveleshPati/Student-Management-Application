@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Auto Populate Full Name OnChange Of First Name Field</description>
+        <field>first_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto Populate Full Name OnChange Fname</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var firstName=g_form.getValue("first_name");
+   var lastName=g_form.getValue("last_name");
+   var title=g_form.getValue("title");
+
+   g_form.setValue("full_name",title+" "+firstName+" "+lastName);
+
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 09:10:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d055206dc3ce42102c15d71d0501310b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Auto Populate Full Name OnChange Fname</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
+        <sys_update_name>sys_script_client_d055206dc3ce42102c15d71d0501310b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 09:38:37</sys_updated_on>
+        <table>x_1386549_studentm_student</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
