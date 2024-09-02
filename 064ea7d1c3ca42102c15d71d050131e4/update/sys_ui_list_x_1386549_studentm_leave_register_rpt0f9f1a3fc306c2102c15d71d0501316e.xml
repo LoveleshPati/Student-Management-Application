@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>leave_number</element>
-            <list_id display_value="x_1386549_studentm_leave_register" element="NULL" name="x_1386549_studentm_leave_register" parent="NULL" relationship="NULL" sys_domain="global" view="c79f9e3fc306c2102c15d71d0501311e">479f9e3fc306c2102c15d71d0501311f</list_id>
+            <list_id display_value="x_1386549_studentm_leave_register" element="NULL" name="x_1386549_studentm_leave_register" parent="NULL" relationship="NULL" sys_domain="global" view="595367bec31c9210d74cb6fdd4013106">479f9e3fc306c2102c15d71d0501311f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>student_name</element>
-            <list_id display_value="x_1386549_studentm_leave_register" element="NULL" name="x_1386549_studentm_leave_register" parent="NULL" relationship="NULL" sys_domain="global" view="c79f9e3fc306c2102c15d71d0501311e">479f9e3fc306c2102c15d71d0501311f</list_id>
+            <list_id display_value="x_1386549_studentm_leave_register" element="NULL" name="x_1386549_studentm_leave_register" parent="NULL" relationship="NULL" sys_domain="global" view="595367bec31c9210d74cb6fdd4013106">479f9e3fc306c2102c15d71d0501311f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>leave_start_date</element>
-            <list_id display_value="x_1386549_studentm_leave_register" element="NULL" name="x_1386549_studentm_leave_register" parent="NULL" relationship="NULL" sys_domain="global" view="c79f9e3fc306c2102c15d71d0501311e">479f9e3fc306c2102c15d71d0501311f</list_id>
+            <list_id display_value="x_1386549_studentm_leave_register" element="NULL" name="x_1386549_studentm_leave_register" parent="NULL" relationship="NULL" sys_domain="global" view="595367bec31c9210d74cb6fdd4013106">479f9e3fc306c2102c15d71d0501311f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>total_absence_day</element>
-            <list_id display_value="x_1386549_studentm_leave_register" element="NULL" name="x_1386549_studentm_leave_register" parent="NULL" relationship="NULL" sys_domain="global" view="c79f9e3fc306c2102c15d71d0501311e">479f9e3fc306c2102c15d71d0501311f</list_id>
+            <list_id display_value="x_1386549_studentm_leave_register" element="NULL" name="x_1386549_studentm_leave_register" parent="NULL" relationship="NULL" sys_domain="global" view="595367bec31c9210d74cb6fdd4013106">479f9e3fc306c2102c15d71d0501311f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>leave_end_date</element>
-            <list_id display_value="x_1386549_studentm_leave_register" element="NULL" name="x_1386549_studentm_leave_register" parent="NULL" relationship="NULL" sys_domain="global" view="c79f9e3fc306c2102c15d71d0501311e">479f9e3fc306c2102c15d71d0501311f</list_id>
+            <list_id display_value="x_1386549_studentm_leave_register" element="NULL" name="x_1386549_studentm_leave_register" parent="NULL" relationship="NULL" sys_domain="global" view="595367bec31c9210d74cb6fdd4013106">479f9e3fc306c2102c15d71d0501311f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -100,7 +100,7 @@
             <sys_updated_by>mohit.trivedi</sys_updated_by>
             <sys_updated_on>2024-05-15 17:47:49</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt0f9f1a3fc306c2102c15d71d0501316e" name="RPT0f9f1a3fc306c2102c15d71d0501316e">c79f9e3fc306c2102c15d71d0501311e</view>
+            <view display_value="Rpt0f9f1a3fc306c2102c15d71d0501316e" name="RPT0f9f1a3fc306c2102c15d71d0501316e">595367bec31c9210d74cb6fdd4013106</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

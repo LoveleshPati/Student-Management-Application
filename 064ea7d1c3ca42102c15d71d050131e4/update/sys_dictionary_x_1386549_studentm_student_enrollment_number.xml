@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-08 05:13:57</sys_created_on>
-        <sys_id>3bef2fd5c3ca42102c15d71d050131ce</sys_id>
         <sys_name>Enrollment Number</sys_name>
         <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
         <sys_policy/>

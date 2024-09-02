@@ -28,6 +28,7 @@
         <ignore_price>true</ignore_price>
         <image/>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -50,7 +51,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Mohit Trivedi">e9ceec29c30282102c15d71d05013142</owner>
+        <owner display_value="">e9ceec29c30282102c15d71d05013142</owner>
         <picture>a2d8d1b3c3ce82102c15d71d050131a0</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 

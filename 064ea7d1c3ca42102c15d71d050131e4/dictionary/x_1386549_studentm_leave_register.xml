@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="94f834e5c34282102c15d71d050131fe" label="Leave Register" max_length="40" name="x_1386549_studentm_leave_register" type="collection">
+        <element label="Leave End Date" mandatory="true" max_length="40" name="leave_end_date" type="glide_date"/>
+        <element label="Leave Start Date" mandatory="true" max_length="40" name="leave_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Leave Type" mandatory="true" max_length="40" name="leave_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Leisure" value="5"/>
+                <element inactive_on_update="false" label="Medical" value="1"/>
+                <element inactive_on_update="false" label="Annual" value="4"/>
+                <element inactive_on_update="false" label="Personal" value="2"/>
+                <element inactive_on_update="false" label="Emergency" value="3"/>
+            </choice>
+        </element>
+        <element label="Mention Leave  Reason" mandatory="true" max_length="4000" name="mention_leave_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Documents" max_length="40" name="documents" type="file_attachment"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Leave Number" max_length="40" name="leave_number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Student Name" mandatory="true" max_length="32" name="student_name" reference="x_1386549_studentm_student" reference_qual="status=new_registration^EQ" reference_qual_condition="status=new_registration^EQ" type="reference"/>
+        <element label="Enrollment  Number" max_length="15" name="enrollment_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="2" label="Approval" max_length="40" name="approval" read_only="true" reference_qual="null" reference_qual_condition="null" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" value="4"/>
+                <element inactive_on_update="false" label="Not Yet Requested" value="1"/>
+                <element inactive_on_update="false" label="Approved" value="3"/>
+                <element inactive_on_update="false" label="Requested" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Total Absence Day" max_length="40" name="total_absence_day" read_only="true" type="integer"/>
+        <index name="index">
+            <element name="student_name"/>
+        </index>
+    </element>
+</database>

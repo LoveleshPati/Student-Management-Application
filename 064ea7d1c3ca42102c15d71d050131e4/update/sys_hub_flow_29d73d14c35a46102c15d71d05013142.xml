@@ -12,12 +12,14 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>lsdlckdskfc</internal_name>
         <label_cache>null</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
+        <master_snapshot_digest/>
         <name>'l;sdl;ckds;kfc;</name>
         <natlang/>
         <outputs/>
@@ -29,6 +31,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>shantala.jain</sys_created_by>
         <sys_created_on>2024-05-17 04:11:00</sys_created_on>
@@ -45,10 +48,10 @@
         <sys_updated_by>shantala.jain</sys_updated_by>
         <sys_updated_on>2024-05-17 04:11:00</sys_updated_on>
         <type>flow</type>
+        <version/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=29d73d14c35a46102c15d71d05013142"/>
     <sys_variable_value action="delete_multiple" query="document_key=29d73d14c35a46102c15d71d05013142"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=29d73d14c35a46102c15d71d05013142"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=29d73d14c35a46102c15d71d05013142"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=29d73d14c35a46102c15d71d05013142^sys_idNOT IN65d73d14c35a46102c15d71d05013144"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -66,9 +69,10 @@
     <sys_hub_flow_input action="delete_multiple" query="model=29d73d14c35a46102c15d71d05013142"/>
     <sys_hub_flow_output action="delete_multiple" query="model=29d73d14c35a46102c15d71d05013142"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=29d73d14c35a46102c15d71d05013142"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=29d73d14c35a46102c15d71d05013142"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=29d73d14c35a46102c15d71d05013142"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=29d73d14c35a46102c15d71d05013142"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=29d73d14c35a46102c15d71d05013142"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=29d73d14c35a46102c15d71d05013142"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=29d73d14c35a46102c15d71d05013142"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=29d73d14c35a46102c15d71d05013142"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_29d73d14c35a46102c15d71d05013142"/>

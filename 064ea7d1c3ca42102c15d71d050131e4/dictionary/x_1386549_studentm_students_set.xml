@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a2f21948c39206102c15d71d0501314e" extends="sys_import_set_row" label="Students Set" max_length="40" name="x_1386549_studentm_students_set" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Standard" label="Standard" max_length="40" name="u_standard" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Title" label="Title" max_length="40" name="u_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Country" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Parent Name" label="Parent Name" max_length="40" name="u_parent_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Enrollment ID" label="Enrollment ID" max_length="40" name="u_enrollment_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=D.O.B." label="D.O.B." max_length="40" name="u_d_o_b_" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Full Address" label="Full Address" max_length="40" name="u_full_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Enrollment Date" label="Enrollment Date" max_length="40" name="u_enrollment_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=First Name" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last Name" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Phone Number" label="Phone Number" max_length="40" name="u_phone_number" type="float"/>
+    </element>
+</database>

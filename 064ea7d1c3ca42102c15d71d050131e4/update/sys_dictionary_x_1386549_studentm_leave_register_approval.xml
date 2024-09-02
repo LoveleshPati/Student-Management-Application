@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="approval" table="x_1386549_studentm_leave_register">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>shantala.jain</sys_created_by>
         <sys_created_on>2024-05-08 10:46:26</sys_created_on>
-        <sys_id>d33bf8e5c34282102c15d71d050131bf</sys_id>
         <sys_name>Approval</sys_name>
         <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
         <sys_policy/>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="20dd1587c34a42102c15d71d050131c5" label="Enrollment Number" max_length="40" name="x_1386549_studentm_enrollment_number" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="number" max_length="40" name="number" type="integer"/>
+    </element>
+</database>

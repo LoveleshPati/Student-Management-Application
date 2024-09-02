@@ -11,11 +11,13 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>send_3_reminders_to_headmaster_for_approval</internal_name>
         <label_cache>[{"name":"Created_1.current.student_name.first_name","label":"Trigger - Record Created➛Leave Register Record➛Student Name➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_1386549_studentm_student","column_name":"first_name","usedInstances":{"086e36b1-fb09-42f1-958e-201cd1480d80":["ah_subject"]}},{"name":"Created_1.current.mention_leave_reason","label":"Trigger - Record Created➛Leave Register Record➛Mention Leave  Reason","reference":"","reference_display":"Mention Leave  Reason","type":"string","base_type":"string","parent_table_name":"x_1386549_studentm_leave_register","column_name":"mention_leave_reason","usedInstances":{"63ebfc49-4f57-4794-8016-bc27ff343b3d":[null]}},{"name":"Created_1.current.leave_start_date","label":"Trigger - Record Created➛Leave Register Record➛Leave Start Date","reference":"","reference_display":"Leave Start Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1386549_studentm_leave_register","column_name":"leave_start_date","usedInstances":{"63ebfc49-4f57-4794-8016-bc27ff343b3d":[null]}},{"name":"Created_1.current.leave_type","label":"Trigger - Record Created➛Leave Register Record➛Leave Type","reference":"","reference_display":"Leave Type","type":"choice","base_type":"choice","parent_table_name":"x_1386549_studentm_leave_register","column_name":"leave_type","choices":[{"label":"-- None --","rawLabel":"-- None --","selected":false,"used":false,"missing":false,"image":"","reference":false,"value":""},{"label":"Annual","rawLabel":"Annual","selected":false,"used":false,"missing":false,"image":"","reference":false,"value":"4","parameters":{"name":"x_1386549_studentm_leave_register"}},{"label":"Emergency","rawLabel":"Emergency","selected":false,"used":false,"missing":false,"image":"","reference":false,"value":"3","parameters":{"name":"x_1386549_studentm_leave_register"}},{"label":"Leisure","rawLabel":"Leisure","selected":false,"used":false,"missing":false,"image":"","reference":false,"value":"5","parameters":{"name":"x_1386549_studentm_leave_register"}},{"label":"Medical","rawLabel":"Medical","selected":false,"used":false,"missing":false,"image":"","reference":false,"value":"1","parameters":{"name":"x_1386549_studentm_leave_register"}},{"label":"Personal","rawLabel":"Personal","selected":false,"used":false,"missing":false,"image":"","reference":false,"value":"2","parameters":{"name":"x_1386549_studentm_leave_register"}}],"usedInstances":{"63ebfc49-4f57-4794-8016-bc27ff343b3d":[null]}},{"name":"Created_1.current.leave_number","label":"Trigger - Record Created➛Leave Register Record➛Leave Number","reference":"","reference_display":"Leave Number","type":"string","base_type":"string","parent_table_name":"x_1386549_studentm_leave_register","column_name":"leave_number","usedInstances":{"63ebfc49-4f57-4794-8016-bc27ff343b3d":[null]}},{"name":"Created_1.current.leave_end_date","label":"Trigger - Record Created➛Leave Register Record➛Leave End Date","reference":"","reference_display":"Leave End Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1386549_studentm_leave_register","column_name":"leave_end_date","usedInstances":{"63ebfc49-4f57-4794-8016-bc27ff343b3d":[null]}},{"name":"Created_1.current.student_name","label":"Trigger - Record Created➛Leave Register Record➛Student Name","reference":"x_1386549_studentm_student","reference_display":"Student","type":"reference","base_type":"reference","parent_table_name":"x_1386549_studentm_leave_register","column_name":"student_name","usedInstances":{"63ebfc49-4f57-4794-8016-bc27ff343b3d":[null]}},{"name":"Created_1.current.enrollment_number","label":"Trigger - Record Created➛Leave Register Record➛Enrollment  Number","reference":"","reference_display":"Enrollment  Number","type":"string","base_type":"string","parent_table_name":"x_1386549_studentm_leave_register","column_name":"enrollment_number","usedInstances":{"63ebfc49-4f57-4794-8016-bc27ff343b3d":["ah_subject"]}},{"name":"Created_1.current.approval","label":"Trigger - Record Created➛Leave Register Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_1386549_studentm_leave_register","column_name":"approval","choices":[{"label":"Approved","rawLabel":"Approved","selected":false,"used":false,"missing":false,"image":"","reference":false,"value":"3","parameters":{"name":"x_1386549_studentm_leave_register"}},{"label":"Not Yet Requested","rawLabel":"Not Yet Requested","selected":false,"used":false,"missing":false,"image":"","reference":false,"value":"1","parameters":{"name":"x_1386549_studentm_leave_register"}},{"label":"Rejected","rawLabel":"Rejected","selected":false,"used":false,"missing":false,"image":"","reference":false,"value":"4","parameters":{"name":"x_1386549_studentm_leave_register"}},{"label":"Requested","rawLabel":"Requested","selected":false,"used":false,"missing":false,"image":"","reference":false,"value":"2","parameters":{"name":"x_1386549_studentm_leave_register"}}],"usedInstances":{"b4a78629-6b65-4ed9-b1f7-6dfb8f14e50f":["condition"],"02a43a68-53f6-4ed2-ad5a-fc9e92f8a3da":["condition"],"7a2e6171-4abf-4d05-85cb-86d90c588ecb":["condition"],"26a351db-bf76-4358-a80c-10772fde9b50":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Leave Register Record","reference":"x_1386549_studentm_leave_register","reference_display":"Leave Register","type":"reference","base_type":"reference","usedInstances":{"63ebfc49-4f57-4794-8016-bc27ff343b3d":["record",null],"086e36b1-fb09-42f1-958e-201cd1480d80":["record"],"c052b817-d059-42be-8805-14956070ef21":["record"],"89b384e4-605a-4cbd-8889-ba8f842310cd":["record"],"6191b6cc-d692-4a94-a67f-a38a33e821b4":["record"]},"attributes":{}},{"name":"Created_1.current.student_name.full_name","label":"Trigger - Record Created➛Leave Register Record➛Student Name➛Full Name","reference":"","reference_display":"Full Name","type":"string","base_type":"string","parent_table_name":"x_1386549_studentm_student","column_name":"full_name","usedInstances":{"63ebfc49-4f57-4794-8016-bc27ff343b3d":["ah_subject"],"c052b817-d059-42be-8805-14956070ef21":["ah_subject"]}}]</label_cache>
         <master_snapshot>8907d633c306c2102c15d71d0501310c</master_snapshot>
+        <master_snapshot_digest/>
         <name>Send 3 Reminders to Headmaster For Approval</name>
         <natlang/>
         <outputs/>
@@ -27,13 +29,14 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>mohit.trivedi</sys_created_by>
         <sys_created_on>2024-05-15 16:09:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1394a3fc382c2102c15d71d050131e1</sys_id>
-        <sys_mod_count>96</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Send 3 Reminders to Headmaster For Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
@@ -41,8 +44,9 @@
         <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
         <sys_update_name>sys_hub_flow_f1394a3fc382c2102c15d71d050131e1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-17 10:36:59</sys_updated_on>
+        <sys_updated_on>2024-09-01 16:30:58</sys_updated_on>
         <type>flow</type>
+        <version/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f1394a3fc382c2102c15d71d050131e1"/>
     <sys_variable_value action="delete_multiple" query="document_key=f1394a3fc382c2102c15d71d050131e1"/>
@@ -86,54 +90,6 @@
         <trigger display_value="">3a29daf3c306c2102c15d71d0501316a</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f1394a3fc382c2102c15d71d050131e1^sys_idNOT IN666f8fdcc31286102c15d71d05013193"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=f1394a3fc382c2102c15d71d050131e1^sys_idNOT IN3a79cabfc382c2102c15d71d050131ff"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Send 3 Reminders to Headmaster For Approval">f1394a3fc382c2102c15d71d050131e1</flow>
-        <name>Created</name>
-        <remote_sys_id/>
-        <sys_created_by>mohit.trivedi</sys_created_by>
-        <sys_created_on>2024-05-15 16:11:08</sys_created_on>
-        <sys_id>3a79cabfc382c2102c15d71d050131ff</sys_id>
-        <sys_mod_count>17</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-17 10:33:39</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=3a79cabfc382c2102c15d71d050131ff"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>3a79cabfc382c2102c15d71d050131ff</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>mohit.trivedi</sys_created_by>
-        <sys_created_on>2024-05-15 16:11:08</sys_created_on>
-        <sys_id>ba790ebfc382c2102c15d71d05013100</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mohit.trivedi</sys_updated_by>
-        <sys_updated_on>2024-05-15 16:11:08</sys_updated_on>
-        <value>x_1386549_studentm_leave_register</value>
-        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>3a79cabfc382c2102c15d71d050131ff</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>mohit.trivedi</sys_created_by>
-        <sys_created_on>2024-05-15 16:11:08</sys_created_on>
-        <sys_id>f2790ebfc382c2102c15d71d05013100</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>mohit.trivedi</sys_updated_by>
-        <sys_updated_on>2024-05-15 17:20:59</sys_updated_on>
-        <value>^EQ</value>
-        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
-    </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=f1394a3fc382c2102c15d71d050131e1"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=f1394a3fc382c2102c15d71d050131e1^sys_idNOT IN7d394a3fc382c2102c15d71d050131e1"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -319,6 +275,54 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d4075633c306c2102c15d71d0501318c"/>
     <sys_hub_flow_output action="delete_multiple" query="model=f1394a3fc382c2102c15d71d050131e1"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f1394a3fc382c2102c15d71d050131e1"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f1394a3fc382c2102c15d71d050131e1^sys_idNOT IN3a79cabfc382c2102c15d71d050131ff"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Send 3 Reminders to Headmaster For Approval">f1394a3fc382c2102c15d71d050131e1</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>mohit.trivedi</sys_created_by>
+        <sys_created_on>2024-05-15 16:11:08</sys_created_on>
+        <sys_id>3a79cabfc382c2102c15d71d050131ff</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-17 10:33:39</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a79cabfc382c2102c15d71d050131ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a79cabfc382c2102c15d71d050131ff</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mohit.trivedi</sys_created_by>
+        <sys_created_on>2024-05-15 16:11:08</sys_created_on>
+        <sys_id>ba790ebfc382c2102c15d71d05013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mohit.trivedi</sys_updated_by>
+        <sys_updated_on>2024-05-15 16:11:08</sys_updated_on>
+        <value>x_1386549_studentm_leave_register</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a79cabfc382c2102c15d71d050131ff</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mohit.trivedi</sys_created_by>
+        <sys_created_on>2024-05-15 16:11:08</sys_created_on>
+        <sys_id>f2790ebfc382c2102c15d71d05013100</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mohit.trivedi</sys_updated_by>
+        <sys_updated_on>2024-05-15 17:20:59</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
     <sys_hub_action_instance action="delete_multiple" query="flow=f1394a3fc382c2102c15d71d050131e1^sys_idNOT IN4b825abbc3c2c2102c15d71d0501319c,8ce5da7fc3c2c2102c15d71d0501317f,926bcebfc382c2102c15d71d0501314f,fc145a3fc3c2c2102c15d71d05013145"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -899,7 +903,6 @@ admin@example.com</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=fc145a3fc3c2c2102c15d71d05013145"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fc145a3fc3c2c2102c15d71d05013145"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f1394a3fc382c2102c15d71d050131e1"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=f1394a3fc382c2102c15d71d050131e1^sys_idNOT IN0fb3d2f7c3c2c2102c15d71d050131b9,27f4da7fc3c2c2102c15d71d05013162,7555dabbc3c2c2102c15d71d05013142,8612d67bc3c2c2102c15d71d050131aa,bb9ac633c3c2c2102c15d71d05013169,c5025a7bc3c2c2102c15d71d0501318e,cdc94a3fc382c2102c15d71d050131a7,e4079633c306c2102c15d71d0501313d"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -1505,6 +1508,7 @@ admin@example.com</value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=e4079633c306c2102c15d71d0501313d"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e4079633c306c2102c15d71d0501313d"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e4079633c306c2102c15d71d0501313d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f1394a3fc382c2102c15d71d050131e1"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=f1394a3fc382c2102c15d71d050131e1^sys_idNOT IN20079633c306c2102c15d71d05013160,20079633c306c2102c15d71d0501316d,64079633c306c2102c15d71d0501315f,6c079633c306c2102c15d71d0501315f,6c079633c306c2102c15d71d0501316c,e0079633c306c2102c15d71d05013160,e0079633c306c2102c15d71d0501316d"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>f1394a3fc382c2102c15d71d050131e1</attached_to>
@@ -1640,11 +1644,11 @@ admin@example.com</value>
         <sys_created_on>2024-05-15 17:10:13</sys_created_on>
         <sys_id>14075633c306c2102c15d71d05013192</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f1394a3fc382c2102c15d71d050131e1_table_name_en</sys_update_name>
         <sys_updated_by>mohit.trivedi</sys_updated_by>
         <sys_updated_on>2024-05-15 17:10:13</sys_updated_on>
         <url/>
@@ -1663,11 +1667,11 @@ admin@example.com</value>
         <sys_created_on>2024-05-15 17:10:13</sys_created_on>
         <sys_id>94075633c306c2102c15d71d0501318f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f1394a3fc382c2102c15d71d050131e1_current_en</sys_update_name>
         <sys_updated_by>mohit.trivedi</sys_updated_by>
         <sys_updated_on>2024-05-15 17:10:13</sys_updated_on>
         <url/>
@@ -1717,57 +1721,10 @@ admin@example.com</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-17 10:33:37</sys_updated_on>
         <type>flow</type>
+        <version/>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=8907d633c306c2102c15d71d0501310c"/>
     <sys_variable_value action="delete_multiple" query="document_key=8907d633c306c2102c15d71d0501310c"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=8907d633c306c2102c15d71d0501310c^sys_idNOT INd107d633c306c2102c15d71d05013180"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Send 3 Reminders to Headmaster For Approval">8907d633c306c2102c15d71d0501310c</flow>
-        <name>Created</name>
-        <remote_sys_id/>
-        <sys_created_by>mohit.trivedi</sys_created_by>
-        <sys_created_on>2024-05-15 17:10:17</sys_created_on>
-        <sys_id>d107d633c306c2102c15d71d05013180</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-17 10:33:39</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=d107d633c306c2102c15d71d05013180"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>d107d633c306c2102c15d71d05013180</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>mohit.trivedi</sys_created_by>
-        <sys_created_on>2024-05-15 17:10:17</sys_created_on>
-        <sys_id>1107d633c306c2102c15d71d05013181</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>mohit.trivedi</sys_updated_by>
-        <sys_updated_on>2024-05-15 17:10:17</sys_updated_on>
-        <value>x_1386549_studentm_leave_register</value>
-        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>d107d633c306c2102c15d71d05013180</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>mohit.trivedi</sys_created_by>
-        <sys_created_on>2024-05-15 17:10:17</sys_created_on>
-        <sys_id>5d07d633c306c2102c15d71d05013180</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>mohit.trivedi</sys_updated_by>
-        <sys_updated_on>2024-05-15 17:23:21</sys_updated_on>
-        <value>^EQ</value>
-        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
-    </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=8907d633c306c2102c15d71d0501310c"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=8907d633c306c2102c15d71d0501310c^sys_idNOT IN0907d633c306c2102c15d71d0501310d"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -1953,6 +1910,54 @@ admin@example.com</value>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0d07d633c306c2102c15d71d0501310e"/>
     <sys_hub_flow_output action="delete_multiple" query="model=8907d633c306c2102c15d71d0501310c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8907d633c306c2102c15d71d0501310c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8907d633c306c2102c15d71d0501310c^sys_idNOT INd107d633c306c2102c15d71d05013180"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Send 3 Reminders to Headmaster For Approval">8907d633c306c2102c15d71d0501310c</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>mohit.trivedi</sys_created_by>
+        <sys_created_on>2024-05-15 17:10:17</sys_created_on>
+        <sys_id>d107d633c306c2102c15d71d05013180</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-17 10:33:39</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d107d633c306c2102c15d71d05013180"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d107d633c306c2102c15d71d05013180</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mohit.trivedi</sys_created_by>
+        <sys_created_on>2024-05-15 17:10:17</sys_created_on>
+        <sys_id>1107d633c306c2102c15d71d05013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mohit.trivedi</sys_updated_by>
+        <sys_updated_on>2024-05-15 17:10:17</sys_updated_on>
+        <value>x_1386549_studentm_leave_register</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d107d633c306c2102c15d71d05013180</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mohit.trivedi</sys_created_by>
+        <sys_created_on>2024-05-15 17:10:17</sys_created_on>
+        <sys_id>5d07d633c306c2102c15d71d05013180</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mohit.trivedi</sys_updated_by>
+        <sys_updated_on>2024-05-15 17:23:21</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
     <sys_hub_action_instance action="delete_multiple" query="flow=8907d633c306c2102c15d71d0501310c^sys_idNOT IN1d07d633c306c2102c15d71d05013171,5907d633c306c2102c15d71d05013169,9d07d633c306c2102c15d71d05013155,d907d633c306c2102c15d71d0501315f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -2533,7 +2538,6 @@ admin@example.com</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d907d633c306c2102c15d71d0501315f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d907d633c306c2102c15d71d0501315f"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8907d633c306c2102c15d71d0501310c"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=8907d633c306c2102c15d71d0501310c^sys_idNOT IN0107d633c306c2102c15d71d05013134,0907d633c306c2102c15d71d05013130,0d07d633c306c2102c15d71d0501312a,5507d633c306c2102c15d71d0501314b,8507d633c306c2102c15d71d05013142,8d07d633c306c2102c15d71d05013145,c507d633c306c2102c15d71d05013139,cd07d633c306c2102c15d71d0501313c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -3139,6 +3143,7 @@ admin@example.com</value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=cd07d633c306c2102c15d71d0501313c"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cd07d633c306c2102c15d71d0501313c"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cd07d633c306c2102c15d71d0501313c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8907d633c306c2102c15d71d0501310c"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=8907d633c306c2102c15d71d0501310c^sys_idNOT IN5107d633c306c2102c15d71d05013182,5507d633c306c2102c15d71d05013181,5907d633c306c2102c15d71d05013181,5d07d633c306c2102c15d71d05013181,d507d633c306c2102c15d71d05013181,d907d633c306c2102c15d71d05013181,dd07d633c306c2102c15d71d05013181"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>8907d633c306c2102c15d71d0501310c</attached_to>
@@ -3274,11 +3279,11 @@ admin@example.com</value>
         <sys_created_on>2024-05-15 17:10:16</sys_created_on>
         <sys_id>4907d633c306c2102c15d71d0501311c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8907d633c306c2102c15d71d0501310c_current_en</sys_update_name>
         <sys_updated_by>mohit.trivedi</sys_updated_by>
         <sys_updated_on>2024-05-15 17:10:16</sys_updated_on>
         <url/>
@@ -3297,11 +3302,11 @@ admin@example.com</value>
         <sys_created_on>2024-05-15 17:10:16</sys_created_on>
         <sys_id>8107d633c306c2102c15d71d05013124</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Student Management System" source="x_1386549_studentm">064ea7d1c3ca42102c15d71d050131e4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student Management System">064ea7d1c3ca42102c15d71d050131e4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8907d633c306c2102c15d71d0501310c_table_name_en</sys_update_name>
         <sys_updated_by>mohit.trivedi</sys_updated_by>
         <sys_updated_on>2024-05-15 17:10:16</sys_updated_on>
         <url/>

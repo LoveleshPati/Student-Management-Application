@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="afef2fd5c3ca42102c15d71d0501314c" label="Student" max_length="40" name="x_1386549_studentm_student" type="collection">
+        <element label="Date Of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="Verification Completed At" max_length="40" name="verification_completed_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent Name" mandatory="true" max_length="80" name="parent_name" reference="x_1386549_studentm_guardian" type="reference"/>
+        <element label="Phone Number" mandatory="true" max_length="13" name="phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="City" mandatory="true" max_length="40" name="city" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Kolkata" value="kolkata"/>
+                <element inactive_on_update="false" label="Chennai" value="chennai"/>
+                <element inactive_on_update="false" label="Delhi" value="delhi"/>
+                <element inactive_on_update="false" label="Mumbai" value="mumbai"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Suspension End Date" max_length="40" name="suspension_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Enrollment Number" max_length="15" name="enrollment_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Application ID" max_length="15" name="application_id" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hold" value="hold"/>
+                <element inactive_on_update="false" label="Suspended" value="suspended"/>
+                <element inactive_on_update="false" label="Background Verification Pending" value="bgv_pending"/>
+                <element inactive_on_update="false" label="New Registration" value="new_registration"/>
+                <element inactive_on_update="false" label="Alumini" value="alumini"/>
+                <element inactive_on_update="false" label="Registered" value="registered"/>
+                <element inactive_on_update="false" label="Transferred" value="transferred"/>
+            </choice>
+        </element>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Transfer Reason" mandatory="true" max_length="4000" name="transfer_reason" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Title" max_length="40" name="title" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Miss" value="Miss"/>
+                <element inactive_on_update="false" label="Mr" value="Mr"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" mandatory="true" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Maharashtra" value="maharashtra"/>
+                <element inactive_on_update="false" label="Delhi" value="delhi"/>
+                <element inactive_on_update="false" label="Tamilnadu" value="tamilnadu"/>
+                <element inactive_on_update="false" label="West Bengal" value="west_bengal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Suspension Effective Date" max_length="40" name="suspension_effective_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Suspend Reason" mandatory="true" max_length="4000" name="suspend_reason" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element default="javascript: new GlideDate();" label="Enrollment Date" mandatory="true" max_length="40" name="enrollment_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub Status" max_length="40" name="sub_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Background Verification Progress" value="bgv_progress"/>
+                <element inactive_on_update="false" label="Background Verification Completed" value="bgv_completed"/>
+                <element inactive_on_update="false" label="Background Verification Requested" value="bgv_requested"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Hold Reason" max_length="4000" name="hold_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Standard" mandatory="true" max_length="40" name="standard" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="4th" value="4"/>
+                <element inactive_on_update="false" label="2nd" value="2"/>
+                <element inactive_on_update="false" label="Nursey" value="nursery"/>
+                <element inactive_on_update="false" label="LKG" value="lkg"/>
+                <element inactive_on_update="false" label="HKG" value="hkg"/>
+                <element inactive_on_update="false" label="1st" value="1"/>
+                <element inactive_on_update="false" label="3rd" value="3"/>
+                <element inactive_on_update="false" label="5th" value="5"/>
+            </choice>
+        </element>
+        <element label="Full Address" mandatory="true" max_length="4000" name="full_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Transfer Date" mandatory="true" max_length="40" name="transfer_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Country" mandatory="true" max_length="40" name="country" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="India" value="india"/>
+                <element inactive_on_update="false" label="Others" value="others"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Last School Day" max_length="40" name="last_school_day" type="glide_date"/>
+        <element display="true" label="Full Name" max_length="80" name="full_name" read_only="true" type="string"/>
+        <index name="index">
+            <element name="parent_name"/>
+        </index>
+    </element>
+</database>
